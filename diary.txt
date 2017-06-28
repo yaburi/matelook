@@ -1,0 +1,125 @@
+========================================================================
+
+09/10/16    23:00   23:05   
+    - Downloaded and started assignment
+
+========================================================================  
+
+10/10/16    17:00   19:00   
+    - Created a subroutine to assign the different aspects of user.txt to variables so that they can be formatted and rearranged.
+
+========================================================================
+
+11/10/16    14:00   20:00
+    - Working on showing posts on the user page.
+    - Iterates through the post_filenames.
+    - Creating a hash to sort the timestamps of the posts, so that they will be displayed in reverse chronological order
+    - Reordering the user posts in reverse chron order with a sorted hash, but it keeps getting an error
+    - Finally able to output each user post file in reverse chron order, a lot more difficult than I expected, now I will begin formatting the messages accordingly
+
+========================================================================
+
+12/10/16    14:00   20:00
+    - My sorting fails when folder names are >=10
+    - Managed to get the posts to be sorted in reverse chronological order now by outputting all the posts as an array instead of a string
+    - Finally formatted the user posts, in a similar fashion to how I formatted the user information
+    - Formatted and divided up the user posts in css. it gives my eyes an aneurysm.
+    - Working on thumbnail images of mates and hyperlinking their profile page
+    - Created the thumbnails of mates and got their name showing instead of zID, but having trouble showing the page of the correct person relating to their zID as a parameter
+    - Added hyperlinking between pages by using parameters. also formatted the buttons for mates and the picutres, so it now doesn't look as bad
+
+========================================================================
+
+16/10/16    21:30   22:45
+    - Looked up bootstrap and downloaded it. Now playing around with it and trying to migrate what I've created so far into a bootstrap website.
+
+========================================================================
+
+17/10/16    15:00   20:00
+    - Added a static navbar to the header of every page using bootstrap
+    - Working on the search function and revising the names of all the params
+    - Search button works, developing the search results page and showing search results. Also formatted the whole website for better aesthetics
+    - Working search results, albeit very inaccurate (just works off regex). Also formatted it nicely into polaroid like search results for each person, with their picture and an area with their information below it with buttons to "Add Mate" and "View Profile"
+    - Fixed up little pieces of code here and there, trying to get a more consistent code and look to the website.
+
+========================================================================    
+
+18/10/16    13:30   14:00
+    - Changed the layout of the user page, which led to more issues with the layout, but then fixed with some css.
+
+18/10/16    19:00   20:00
+    - Made more changes and edits to the design of the pages, kind of getting off track from implementing the features. Added the variables to check for login and added a login form for the navbar.
+
+========================================================================    
+
+19/10/16    13:00   16:00
+    - More formatting with the html to make it look better, but then my tutor tells me that it isn't marked. Now working on the login, not sure how to approach this without making a .txt file with all the usernames and passwords.
+    - Got the login to work, which checks with a .txt file to authenticate, but it then puts the username and password as parameters on the address bar. Another issue is thath it doesn't maintain the logged-in state. WIll need to fix these.
+
+========================================================================    
+
+22/10/16    19:30    20:00
+    - Things got deleted, but glad I had backups on gitlab, USB and my laptop.
+    - Cookies not working
+    
+22/10/16    21:30    23:30
+    - Cookies still being annoying, not entirely sure how to implement them in my code, especially with the way the header is printed before everything else.
+    - Finally made some progress with cookies. My website can at least write and read a single cookie. But still not sure how to implement it for logins.
+        
+========================================================================   
+
+23/10/16    13:30   16:30
+    - Got cookies semi-working. Now able to be in a logged in state, but unable to logout without clearing cookies via the browser. This took way longer than expected and was very, very frustrating.
+
+23/10/16    17:00   19:00
+    - Cookies now work completely after I rewrote my entire cookies section, replacing it with CGI::Sessions, which allows more intuitive usage of cookies and also allows deleting them instantly on logout.
+    
+========================================================================
+
+25/10/16    12:00   12:30
+    - Added a bunch of comments so that my code makes sense.
+
+25/10/16    19:30   20:00
+    - Added a lot of comments.
+    
+========================================================================
+
+26/10/16    15:00   20:00
+    - Adding comments underneath user posts took a long time. Had to rework old sections of code.
+    - Fixed username and password being passed to the address bar by using POST instead of GET.
+    - Created a timestamp function that would properly format timestamps
+    - Formatted user posts and comments with a thumbnail image and a link the the post's user page
+    - Attempting to add links to pages when z5555555 is written in messages
+    - Completed adding links to the correct pages for z5555555
+    
+========================================================================
+
+27/10/16    14:00   19:30
+    - Creating the news feed that appears when a user logs in. Starting by creating all the posts from the user, their friend and comments and sending it to a hash which then is sorted by most recent, then printed out.
+    - Able to generate the users posts and friend posts.
+    - Fixed up some styling in css
+    - Adding show/hide comments
+    - Showing replies below comments
+
+========================================================================
+
+28/10/16    13:30   16:00
+    - Spent this entire time fixing a minor formatting issue
+
+28/10/16    16:20   18:20
+    - Spent another large chunk on time with another very frustrating aspect of this assignment. Ready to hand it in and call it a day. For some reason when I try to traverse the comments to find a mention of a certain user, it returns the wrong comments and posts without comments. 
+
+========================================================================
+
+29/10/16    11:00   13:30
+    - Fixed the issue with printing the comments for the wrong posts. One of the variables was not being updated properly.
+    - Tried dataset-large but loading took 5 minutes.
+
+29/10/16    14:45   17:30
+    - Added javascript that show/hides comments
+    - Fixed a bunch of formatting issues and am almost done with the design of the website
+
+========================================================================
+
+30/10/16    21:00   12:30
+    - Formatted everything and put in a bunch of comments.
