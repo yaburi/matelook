@@ -11,6 +11,7 @@ Splash page with a login header. The login uses cookies to maintain the logged i
 ## Newsfeed
 Basic newsfeed generated from data from UNSW Love Letters Facebook page, replacing tagged names with celebrity names in our database.
 Comments can be hidden and shown through a JavaScript button and tagged names link to the corresponding pages.
+
 ![newsfeed1](http://i.imgur.com/paCz0zO.jpg)
 
 ![newsfeed2](http://i.imgur.com/YDlQ7Th.png)
@@ -18,6 +19,7 @@ Comments can be hidden and shown through a JavaScript button and tagged names li
 
 ## Search results
 Search results are returned from basic string matching.
+
 ![search1](http://i.imgur.com/AxWHo31.png)
 
 ![search2](http://i.imgur.com/5fhrayv.png)
